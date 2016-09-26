@@ -9,3 +9,16 @@
 #
 # > 120
 #
+
+
+
+def factorial(i)
+  answer = 1
+  while (i > 0) do
+    answer *= i
+    i -= 1
+  end
+  return answer
+end
+
+puts factorial(5)
